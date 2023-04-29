@@ -1,0 +1,55 @@
+body {
+    background-color: darkcyan;
+    /* padding:20% 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+
+}
+
+.container{
+    background-color: #fff;
+    padding: 45px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+#quote-author{
+    font-size:22px;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 28px;
+}
+
+#btn,#btn1{
+   
+    padding:10px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin:3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn:hover{
+    padding: 12px;
+    transition: 0.6s;
+    font-size: 17px;
+}
+
+#btn1:hover{
+    padding: 12px;
+    transition: 0.6s;
+    font-size: 17px;
+}
