@@ -66,4 +66,5 @@ function refresh(){
 //for copy
 function copy(){
     navigator.clipboard.writeText(quoteText.textContent)
+    btn1.innerHTML="Copied!!"
 }
